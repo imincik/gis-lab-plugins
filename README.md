@@ -1,4 +1,4 @@
-gis-lab-plugins
-===============
+GIS.lab plugins library
+=======================
 
-GIS.lab plugins
+GIS.lab plugins library
