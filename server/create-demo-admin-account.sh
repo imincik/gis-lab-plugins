@@ -1,11 +1,11 @@
 #!/bin/bash
-# Create default administrator account 'adm' with password 'adm'.
+# Create demonstration administrator account 'adm' with password 'adm'.
 # Do not use in production !
 
 
 case $GISLAB_INSTALL_ACTION in
 	install)
-		echo "Adding default administrator account 'adm'."
+		echo "Adding demonstration administrator account 'adm'."
 		gislab-adduser -s -g Administrator -l GIS.lab -m adm@gis.lab -p adm adm
 		;;
 esac
