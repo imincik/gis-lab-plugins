@@ -5,7 +5,7 @@
 case $GISLAB_ACCOUNT_ACTION in
 	add)
 		echo "Installing example data for user '$GISLAB_USER'."
-		ln -s /storage/repository/data/natural-earth /storage/share/$GISLAB_USER/natural-earth
+		ln -s /mnt/repository/data/natural-earth /mnt/share/$GISLAB_USER/natural-earth
 		;;
 esac
 
